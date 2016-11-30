@@ -1,0 +1,39 @@
+<!DOCTYPE html />
+<html>
+	<head>
+		<base href="images/" />
+		<title>Muselk's Website</title>
+		<link rel="stylesheet" type="text/css" href="../styles/style.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/fonts/bebas_neue/bebas_neue.css" />
+	</head>
+	<body>
+	<div id="wrapper" >
+			<div id="header">
+				<img src="website_header.png" width="1500" height="200" alt="Muselk Header" title="Art by @oxkyouki" />
+			</div>
+			<div id="nav">
+				<ul class="topnav" id="main-nav">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../art.html">Art</a></li>
+					<li class="icon"><a href="javascript:void(0);" onclick="expandMenu()">&#9776;</a></li>
+				</ul>
+				<script>
+					function expandMenu() {
+						var x = document.getElementById('main-nav');
+						if(x.className === "topnav") {
+							x.className += " responsive";
+						} else {
+							x.className = "topnav";
+						}
+					}
+				</script>
+			</div>
+			<div id="content">
+				
+			</div>
+			<div id="footer">
+				
+			</div>
+		</div>
+	</body>
+</html>
