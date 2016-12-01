@@ -5,6 +5,8 @@
 		<title>Muselk's Website</title>
 		<link rel="stylesheet" type="text/css" href="../styles/style.css" />
 		<link rel="stylesheet" type="text/css" href="../styles/fonts/bebas_neue/bebas_neue.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script href="../jquery.js"></script>
 	</head>
 	<body>
 	<div id="wrapper" >
@@ -26,6 +28,10 @@
 							x.className = "topnav";
 						}
 					}
+					causeRepaintsOn = $("h1, h2, h3, p");
+					$(window).resize(function {
+						causeRepaintsOn.css("z-index", 1);
+					});
 				</script>
 			</div>
 			<div id="content">

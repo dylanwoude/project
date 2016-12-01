@@ -63,18 +63,45 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 127.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"quick",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 400.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
+			"git remote add project https://github.com/dylanwoude/project.git",
+			"git",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -88,8 +115,10 @@
 	},
 	"file_history":
 	[
-		"/C/wamp64/www/muselk/index.html",
+		"/C/Users/Mundane/Documents/GitHub/project/index.php",
+		"/C/Users/Mundane/Documents/GitHub/project/main.css",
 		"/C/wamp64/www/muselk/styles/style.css",
+		"/C/wamp64/www/muselk/index.html",
 		"/C/wamp64/www/horror/coming.html",
 		"/C/wamp64/www/horror/index.html",
 		"/C/wamp64/www/horror/styles/coming.css",
@@ -210,7 +239,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -239,6 +268,10 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 100.0
+	},
 	"pinned_build_system": "",
 	"project": "muselk.sublime-project",
 	"replace":
@@ -263,7 +296,7 @@
 		[
 			[
 				"",
-				"C:\\wamp64\\www\\horror\\horror.sublime-project"
+				"C:\\wamp64\\www\\dudleys\\dudleys.sublime-project"
 			]
 		],
 		"width": 380.0
